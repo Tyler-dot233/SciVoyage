@@ -51,8 +51,8 @@
 
 | 文件 | 说明 |
 |------|------|
-| [`0ed7fc829c6875461cee53faa078b726.jpg`](../../0ed7fc829c6875461cee53faa078b726.jpg) | 黄山徒步参考风格（10 子图 + 红色标记） |
-| [`test_trip/final_composite.jpg`](../../test_trip/final_composite.jpg) | 测试合成效果示例 |
+| [`0ed7fc829c6875461cee53faa078b726.jpg`](./0ed7fc829c6875461cee53faa078b726.jpg) | 黄山徒步参考风格（10 子图 + 红色标记） |
+| [`test_trip/final_composite.jpg`](./test_trip/final_composite.jpg) | 测试合成效果示例 |
 
 > 实际输出为模型根据 `SKILL.md` 规则生成的单张长图。
 
@@ -179,9 +179,14 @@ cp -r /path/to/xjpaper/skills/scivoyage skills/
 ## 项目结构
 
 ```text
-skills/scivoyage/
-├── SKILL.md      # Skill 核心规则与执行流程
-└── README.md     # 项目说明（本文件）
+.
+├── LICENSE              # MIT 许可证
+├── README.md            # 项目说明（本文件）
+├── skills/scivoyage/
+│   ├── SKILL.md         # Skill 核心规则与执行流程
+│   └── ...
+├── test_trip/           # 测试样例
+└── xinjiang_trip/       # 新疆旅行示例
 ```
 
 ## 贡献指南
